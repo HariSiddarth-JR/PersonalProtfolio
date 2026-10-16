@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hari Siddarth J.R. — Software Development Intern Candidate</title>
+    <meta name="description" content="Portfolio of Hari Siddarth J.R. — Second-year B.Tech CSE (AI & ML) student at Crescent Institute and Software Development Intern Candidate specializing in React.js, Node.js, and GenAI / RAG systems." />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Google Fonts: Syne + DM Mono + DM Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- ░░ SCROLL PROGRESS BAR ░░ -->
+    <div id="scroll-progress"></div>
+
+    <!-- ░░ NAVIGATION ░░ -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">HS<span class="dot">.</span></a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#credentials" class="nav-link">Credentials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ░░ HERO ░░ -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="hero-grid"></div>
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+        </div>
+        <div class="hero-content fade-in-up">
+            <p class="hero-label"><span class="dot-blink"></span> Seeking Software Development Internships</p>
+            <h1 class="hero-name">Hari Siddarth<br /><span class="name-accent">J.R.</span></h1>
+            <div class="hero-role">
+                <span class="role-prefix">I am a </span>
+                <span class="typed-text" id="typed"></span>
+                <span class="cursor-blink">|</span>
+            </div>
+            <p class="hero-summary">
+                Second-year B.Tech CSE (AI & ML) student with hands-on experience building and deploying web applications using React.js, JavaScript, and Vite, alongside Python-based AI projects using Gemini API, FAISS, text embeddings, and retrieval-augmented generation. Seeking software development internship opportunities.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">Featured Work <i class="ri-arrow-down-line"></i></a>
+                <a href="Hari_Siddarth_Resume.pdf" download="Hari_Siddarth_Resume.pdf" class="btn btn-outline" id="hero-resume-btn"><i class="ri-download-2-line"></i> Download Resume</a>
+                <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+            </div>
+            <div class="hero-meta">
+                <span><i class="ri-map-pin-2-line"></i> Chennai, Tamil Nadu, India</span>
+                <span><i class="ri-graduation-cap-line"></i> B.Tech CSE (AI & ML) • CGPA 9.3/10</span>
+                <span><i class="ri-briefcase-line"></i> Software Development Intern Candidate</span>
+            </div>
+        </div>
+        <div class="hero-scroll-hint">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ░░ ABOUT ░░ -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-label fade-in">01 — About Me</div>
+            <div class="about-grid">
+                <div class="about-image-wrap fade-in">
+                    <div class="about-image-frame">
+                        <div class="about-avatar">
+                            <i class="ri-user-3-line"></i>
+                        </div>
+                        <div class="image-badge">
+                            <i class="ri-code-box-line"></i>
+                            <span>AI & Web Dev</span>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-num">9.3</span>
+                            <span class="stat-label">CGPA / 10</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">2029</span>
+                            <span class="stat-label">Batch</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">3</span>
+                            <span class="stat-label">Core Projects</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content fade-in">
+                    <h2 class="section-title">Engineering software with<br /><span class="accent">purpose & precision.</span></h2>
+                    <p class="about-text">
+                        I am a second-year B.Tech Computer Science and Engineering (AI & ML) student at B.S. Abdur Rahman Crescent Institute of Science and Technology, Chennai, with hands-on experience building and deploying web applications using React.js, JavaScript, and Vite, alongside Python-based AI projects using Gemini API, FAISS, text embeddings, and retrieval-augmented generation.
+                    </p>
+                    <p class="about-text">
+                        I am actively seeking software development internship opportunities where I can apply my foundational computer science knowledge, modern full-stack skills, and rapid learning capacity to solve real-world problems and deliver high-impact software.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="ri-graduation-cap-line"></i>
+                            <div>
+                                <strong>Academic Excellence & AI/ML Specialization</strong>
+                                <span>Second-year B.Tech student maintaining a 9.3/10 CGPA at B.S. Abdur Rahman Crescent Institute of Science and Technology (2025–2029).</span>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="ri-stack-line"></i>
+                            <div>
+                                <strong>Full-Stack Web Engineering</strong>
+                                <span>Hands-on experience developing and hosting responsive React.js web apps with Node.js, Express.js, and MongoDB Atlas backends.</span>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="ri-brain-line"></i>
+                            <div>
+                                <strong>GenAI & Vector Search Pipelines</strong>
+                                <span>Building production-oriented RAG workflows using Python, Gemini API, Sentence Transformers, and FAISS similarity indexing.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-actions" style="display:flex; gap:14px; flex-wrap:wrap;">
+                        <a href="Hari_Siddarth_Resume.pdf" download="Hari_Siddarth_Resume.pdf" class="btn btn-primary"><i class="ri-download-2-line"></i> Download Resume</a>
+                        <a href="#contact" class="btn btn-ghost">Let's Connect <i class="ri-arrow-right-up-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ░░ SKILLS ░░ -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <div class="section-label fade-in">02 — Technical Skills</div>
+            <div class="skills-header fade-in">
+                <h2 class="section-title">My Technical <span class="accent">Arsenal</span></h2>
+                <p class="section-sub">Technologies from my verified resume, categorized without arbitrary percentage ratings</p>
+            </div>
+            <div class="skills-grid fade-in">
+
+                <!-- Programming Languages -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="ri-code-s-slash-line"></i></div>
+                    <div class="skill-info">
+                        <div class="skill-name">Programming Languages</div>
+                        <div class="skill-desc">Core problem solving, data structures, and application logic</div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+
+                <!-- Frontend -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="ri-layout-masonry-line"></i></div>
+                    <div class="skill-info">
+                        <div class="skill-name">Frontend</div>
+                        <div class="skill-desc">Modern, responsive, and performant user interface engineering</div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Vite</span>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="ri-server-line"></i></div>
+                    <div class="skill-info">
+                        <div class="skill-name">Backend</div>
+                        <div class="skill-desc">Server-side logic, controllers, routing, and RESTful APIs</div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">REST APIs</span>
+                    </div>
+                </div>
+
+                <!-- Databases -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="ri-database-2-line"></i></div>
+                    <div class="skill-info">
+                        <div class="skill-name">Databases</div>
+                        <div class="skill-desc">Relational and document database design, querying, and modeling</div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                </div>
+
+                <!-- AI and Generative AI -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="ri-brain-line"></i></div>
+                    <div class="skill-info">
+                        <div class="skill-name">AI and Generative AI</div>
+                        <div class="skill-desc">Vector embeddings, semantic search, and RAG architectures</div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Gemini API</span>
+                        <span class="skill-tag">Text Embeddings</span>
+                        <span class="skill-tag">FAISS</span>
+                        <span class="skill-tag">Sentence Transformers</span>
+                        <span class="skill-tag">RAG</span>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="ri-tools-line"></i></div>
+                    <div class="skill-info">
+                        <div class="skill-name">Tools</div>
+                        <div class="skill-desc">Version control, collaborative workflows, and developer tooling</div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ░░ PROJECTS ░░ -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <div class="section-label fade-in">03 — Projects</div>
+            <div class="projects-header fade-in">
+                <h2 class="section-title">Things I've <span class="accent">Built</span></h2>
+                <p class="section-sub">Actual full-stack and AI projects with genuine repositories and live deployments</p>
+            </div>
+            <div class="projects-grid">
+
+                <!-- Project 1: FEATURED FULL-STACK PROJECT -->
+                <div class="project-card fade-in project-card-featured">
+                    <div class="project-num">01</div>
+                    <div class="project-featured-tag">Featured Full-Stack Project</div>
+                    <div class="project-header">
+                        <div class="project-icon"><i class="ri-node-tree"></i></div>
+                        <div class="project-links">
+                            <a href="https://github.com/HariSiddarth-JR/AlgoVerse" target="_blank" rel="noopener noreferrer" class="project-link" title="View Source on GitHub"><i class="ri-github-line"></i></a>
+                            <a href="https://algo-verse-v2.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link" title="Open Live Demo"><i class="ri-external-link-line"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">AlgoVerse — Full-Stack Algorithm Learning Platform</h3>
+                    <p class="project-desc">A full-stack algorithm learning platform with interactive sorting and searching visualizations, step-by-step playback, authentication, quizzes, bookmarks, and learning progress tracking.</p>
+                    <div class="project-stack">
+                        <span>React.js</span><span>JavaScript</span><span>Node.js</span><span>Express.js</span><span>MongoDB Atlas</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://algo-verse-v2.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary project-btn">Live Demo <i class="ri-external-link-line"></i></a>
+                        <a href="https://github.com/HariSiddarth-JR/AlgoVerse" target="_blank" rel="noopener noreferrer" class="btn btn-outline project-btn"><i class="ri-github-line"></i> GitHub Repo</a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Semantic Search & RAG System -->
+                <div class="project-card fade-in">
+                    <div class="project-num">02</div>
+                    <div class="project-header">
+                        <div class="project-icon"><i class="ri-search-eye-line"></i></div>
+                        <div class="project-links">
+                            <a href="https://github.com/HariSiddarth-JR/semantic-search-rag-system" target="_blank" rel="noopener noreferrer" class="project-link" title="View Source on GitHub"><i class="ri-github-line"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Semantic Search & RAG System</h3>
+                    <p class="project-desc">A semantic retrieval system that uses text embeddings and vector similarity search to retrieve relevant information and support retrieval-augmented generation.</p>
+                    <div class="project-stack">
+                        <span>Python</span><span>Gemini API</span><span>Text Embeddings</span><span>FAISS</span><span>Sentence Transformers</span><span>RAG</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://github.com/HariSiddarth-JR/semantic-search-rag-system" target="_blank" rel="noopener noreferrer" class="btn btn-outline project-btn"><i class="ri-github-line"></i> GitHub Repo <i class="ri-arrow-right-up-line"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 3: Zyro HR RAG Assistant -->
+                <div class="project-card fade-in">
+                    <div class="project-num">03</div>
+                    <div class="project-header">
+                        <div class="project-icon"><i class="ri-robot-2-line"></i></div>
+                        <div class="project-links">
+                            <a href="https://github.com/HariSiddarth-JR/zyro-hr-rag-assistant" target="_blank" rel="noopener noreferrer" class="project-link" title="View Source on GitHub"><i class="ri-github-line"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Zyro HR RAG Assistant</h3>
+                    <p class="project-desc">An AI-powered HR assistant designed to answer employee questions using information retrieved from HR policy documents.</p>
+                    <div class="project-stack">
+                        <span>Python</span><span>RAG</span><span>LLMs</span><span>Vector Search</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://github.com/HariSiddarth-JR/zyro-hr-rag-assistant" target="_blank" rel="noopener noreferrer" class="btn btn-outline project-btn"><i class="ri-github-line"></i> GitHub Repo <i class="ri-arrow-right-up-line"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ░░ EDUCATION ░░ -->
+    <section id="education" class="section education">
+        <div class="container">
+            <div class="section-label fade-in">04 — Education</div>
+            <div class="education-header fade-in">
+                <h2 class="section-title">Academic <span class="accent">Journey</span></h2>
+                <p class="section-sub">Formal education and academic performance verified from my resume</p>
+            </div>
+            <div class="education-grid fade-in">
+
+                <!-- B.Tech CSE -->
+                <div class="education-card">
+                    <div class="education-badge">Undergraduate Degree</div>
+                    <h3 class="education-title">B.Tech Computer Science and Engineering (AI & ML)</h3>
+                    <div class="education-inst">B.S. Abdur Rahman Crescent Institute of Science and Technology</div>
+                    <div class="education-score-pill">
+                        <i class="ri-award-line"></i> CGPA: 9.3 / 10
+                    </div>
+                    <div class="education-meta">
+                        <span><i class="ri-calendar-line"></i> 2025–2029 (Second Year)</span>
+                        <span><i class="ri-map-pin-line"></i> Chennai, Tamil Nadu</span>
+                    </div>
+                    <p class="education-desc">
+                        Specializing in Artificial Intelligence and Machine Learning with core study in Data Structures, Algorithms, Object-Oriented Programming, Database Systems, and Software Engineering.
+                    </p>
+                </div>
+
+                <!-- Class XII -->
+                <div class="education-card">
+                    <div class="education-badge">Senior Secondary (Class XII)</div>
+                    <h3 class="education-title">Class XII — CBSE Examination</h3>
+                    <div class="education-inst">Velammal Vidhyashram</div>
+                    <div class="education-score-pill">
+                        <i class="ri-percent-line"></i> Score: 83.2%
+                    </div>
+                    <div class="education-meta">
+                        <span><i class="ri-calendar-line"></i> Completed: 2025</span>
+                        <span><i class="ri-government-line"></i> CBSE Board</span>
+                    </div>
+                    <p class="education-desc">
+                        Completed higher secondary education with a rigorous curriculum in Mathematics, Physics, Chemistry, and Computer Science.
+                    </p>
+                </div>
+
+                <!-- Class X -->
+                <div class="education-card">
+                    <div class="education-badge">Secondary School (Class X)</div>
+                    <h3 class="education-title">Class X — CBSE Examination</h3>
+                    <div class="education-inst">Velammal Vidhyashram</div>
+                    <div class="education-score-pill">
+                        <i class="ri-percent-line"></i> Score: 74.2%
+                    </div>
+                    <div class="education-meta">
+                        <span><i class="ri-calendar-line"></i> Completed: 2023</span>
+                        <span><i class="ri-government-line"></i> CBSE Board</span>
+                    </div>
+                    <p class="education-desc">
+                        Completed secondary education building foundational analytical, scientific, and mathematical competencies.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ░░ CREDENTIALS & ACHIEVEMENTS ░░ -->
+    <section id="credentials" class="section credentials">
+        <div class="container">
+            <div class="section-label fade-in">05 — Certifications & Achievement</div>
+            <div class="credentials-header fade-in">
+                <h2 class="section-title">Verified <span class="accent">Credentials</span></h2>
+                <p class="section-sub">Masterclasses delivered by industry scientists and genuine contest recognition</p>
+            </div>
+            <div class="credentials-grid fade-in">
+
+                <!-- Masterclass 1 -->
+                <div class="credential-card">
+                    <div class="credential-top">
+                        <div class="credential-icon"><i class="ri-compass-3-line"></i></div>
+                        <span class="credential-badge">NIAT Masterclass</span>
+                    </div>
+                    <h3 class="credential-title">Vector Search in Practice: Semantic Search with LLMs</h3>
+                    <div class="credential-instructor">
+                        <i class="ri-user-star-line"></i> Delivered by Arpan Paul, Applied Scientist at Amazon
+                    </div>
+                    <div class="credential-meta">
+                        <i class="ri-calendar-event-line"></i> March 2026
+                    </div>
+                    <p class="credential-desc">
+                        Comprehensive training on vector indexing, dense representations, nearest-neighbor algorithms, and deploying semantic search systems for modern LLM applications.
+                    </p>
+                </div>
+
+                <!-- Masterclass 2 -->
+                <div class="credential-card">
+                    <div class="credential-top">
+                        <div class="credential-icon"><i class="ri-file-code-line"></i></div>
+                        <span class="credential-badge">NIAT Masterclass</span>
+                    </div>
+                    <h3 class="credential-title">Applying Text Embeddings in LLM Systems</h3>
+                    <div class="credential-instructor">
+                        <i class="ri-user-star-line"></i> Delivered by Stuti Gupta, Data Scientist at Flipkart
+                    </div>
+                    <div class="credential-meta">
+                        <i class="ri-calendar-event-line"></i> February 2026
+                    </div>
+                    <p class="credential-desc">
+                        In-depth masterclass on practical text embedding architectures, semantic similarity evaluation, and grounding RAG pipelines for domain-specific question answering.
+                    </p>
+                </div>
+
+                <!-- Genuine Achievement -->
+                <div class="credential-card credential-card-award">
+                    <div class="credential-top">
+                        <div class="credential-icon"><i class="ri-trophy-line"></i></div>
+                        <span class="credential-badge credential-badge-award">Contest Winner</span>
+                    </div>
+                    <h3 class="credential-title">Second Prize — CODEVERSE Coding Contest</h3>
+                    <div class="credential-instructor">
+                        <i class="ri-award-fill"></i> NIAT × Crescent Campus
+                    </div>
+                    <div class="credential-meta">
+                        <i class="ri-calendar-event-line"></i> 2026
+                    </div>
+                    <p class="credential-desc">
+                        Awarded Second Prize in the CODEVERSE campus-wide coding contest evaluating algorithmic problem solving, time complexity optimization, and data structures.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ░░ CONTACT ░░ -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-label fade-in">06 — Contact</div>
+            <div class="contact-grid">
+                <div class="contact-info fade-in">
+                    <h2 class="section-title">Let's Build<br /><span class="accent">Something Great.</span></h2>
+                    <p class="contact-sub">
+                        I am actively seeking software development internship opportunities. Feel free to reach out directly via email, phone, or connect on LinkedIn and GitHub.
+                    </p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="ri-map-pin-2-line"></i>
+                            <span>Chennai, Tamil Nadu, India</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="ri-mail-line"></i>
+                            <a href="mailto:harisiddarth.jr@gmail.com">harisiddarth.jr@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="ri-phone-line"></i>
+                            <a href="tel:+918807821629">+91 8807821629</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="ri-file-download-line"></i>
+                            <a href="Hari_Siddarth_Resume.pdf" download="Hari_Siddarth_Resume.pdf" style="color:var(--accent);">Hari_Siddarth_Resume.pdf (Download Resume)</a>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/HariSiddarth-JR" target="_blank" rel="noopener noreferrer" class="social-btn" title="GitHub">
+                            <i class="ri-github-line"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/hari-siddarth-j-r-ai-dev" target="_blank" rel="noopener noreferrer" class="social-btn" title="LinkedIn">
+                            <i class="ri-linkedin-box-line"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="mailto:harisiddarth.jr@gmail.com" class="social-btn" title="Send Email">
+                            <i class="ri-mail-send-line"></i>
+                            <span>Email</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrap fade-in">
+                    <div class="glass-card">
+                        <form id="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <div class="input-wrap">
+                                    <i class="ri-user-line"></i>
+                                    <input type="text" id="name" name="name" placeholder="Your Name" autocomplete="name" />
+                                </div>
+                                <span class="error-msg" id="name-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <div class="input-wrap">
+                                    <i class="ri-mail-line"></i>
+                                    <input type="email" id="email" name="email" placeholder="your.email@example.com" autocomplete="email" />
+                                </div>
+                                <span class="error-msg" id="email-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <div class="input-wrap textarea-wrap">
+                                    <i class="ri-chat-3-line"></i>
+                                    <textarea id="message" name="message" placeholder="Tell me about your internship opportunity or project..." rows="5"></textarea>
+                                </div>
+                                <span class="error-msg" id="message-error"></span>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+                                <span id="btn-text">Send Message via Email <i class="ri-mail-send-line"></i></span>
+                            </button>
+                            <div class="form-info-box" id="form-info-box">
+                                <i class="ri-information-line" style="color:var(--accent);"></i>
+                                <span>Launching your email client to send to <strong>harisiddarth.jr@gmail.com</strong>. Alternatively, you can directly email <a href="mailto:harisiddarth.jr@gmail.com">harisiddarth.jr@gmail.com</a>.</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ░░ FOOTER ░░ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-logo">HS<span class="dot">.</span></div>
+                <p class="footer-copy">© 2026 Hari Siddarth J.R. Built with passion & precision in Chennai, India.</p>
+                <div class="footer-nav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#education">Education</a>
+                    <a href="#credentials">Credentials</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ░░ BACK TO TOP ░░ -->
+    <button id="back-to-top" aria-label="Back to top">
+        <i class="ri-arrow-up-line"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
